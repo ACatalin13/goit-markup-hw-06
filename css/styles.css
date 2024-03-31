@@ -629,7 +629,7 @@ textarea {
 }
 
 textarea:focus-visible {
-  outline-offset: 0px;
+  outline: none;
 }
 
 .input-icon {

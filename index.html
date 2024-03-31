@@ -60,7 +60,45 @@
             <div class="modal is-hidden" data-modal>
                 <div class="modal-content">
                     <button class="close-btn" data-modal-close>&times;</button>
-                    continut modal
+                    <h2>Leave your contacts and we will call you back</h2>
+                    <form class="inputs">
+                        <label for="name" class="input-class">Name
+                            <input type="text" name="name" class="input-with-icon">
+                            <svg class="input-icon">
+                                <use href="./images/icons/symbol-defs.svg#icon-name"></use>
+                            </svg>
+                        </label>
+
+                        <label for="phone" class="input-class">Phone
+                            <input type="tel" name="telephone" class="input-with-icon">
+                            <svg class="input-icon">
+                                <use href="./images/icons/symbol-defs.svg#icon-phone"></use>
+                            </svg>
+                        </label>
+
+                        <label for="email" class="input-class">Email
+                            <input type="email" name="email" class="input-with-icon">
+                            <svg class="input-icon">
+                                <use href="./images/icons/symbol-defs.svg#icon-email"></use>
+                            </svg>
+                        </label>
+
+                        <label for="comments" class="input-class">Comments
+                            <textarea placeholder="Text input"></textarea>
+                        </label>
+
+                        <label class="checkbox">
+                            <input type="checkbox" name="checkbox" class="checkbox-input">
+                            <svg class="icon-checkbox">
+                                <use href="./images/icons/symbol-defs.svg#icon-checkmark"></use>
+                            </svg>
+                            I accept the terms and conditions of the <span>Privacy Policy</span>
+                        </label>
+
+                        <button type="submit" class="send-btn">
+                            Send
+                        </button>
+                    </form>
                 </div>
             </div>
         </section>
@@ -364,6 +402,7 @@
                 </p>
             </div>
             <div class="social-container">
+
                 <p>Social media</p>
                 <div class="footer-social-icons-list">
                     <a href="https://www.instagram.com/" target="_blank" class="social-icon" aria-label="instagram-link"
@@ -395,6 +434,19 @@
                         </svg>
                     </a>
                 </div>
+
+            </div>
+            <div class="subscribe-container">
+                <p>Subscribe</p>
+                <form action="" class="footer-subscribe">
+                    <input type="email" name="email" class="footer-email" placeholder="E-mail">
+                    <button type="submit" class="footer-btn">
+                        Subscribe
+                        <svg class="footer-icon-email">
+                            <use href="./images/icons/symbol-defs.svg#icon-send"></use>
+                        </svg>
+                    </button>
+                </form>
             </div>
         </div>
     </footer>
